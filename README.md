@@ -14,8 +14,8 @@
 </p>
 ##Android
 <p align="center">
-    <img src="https://github.com/Mixfader/MixfaderSDKSample/blob/master/MixFaderActivity.png" width="250">
-    <img src="https://github.com/Mixfader/MixfaderSDKSample/blob/master/MixFaderActivity2.png" width="250">
+    <img src="https://github.com/Mixfader/MixfaderSDKSample/blob/master/MixFaderActivity.png" width="275">
+    <img src="https://github.com/Mixfader/MixfaderSDKSample/blob/master/MixFaderActivity2.png" width="275">
     <br/>
 The Android app is available on Google Play:<br/> <a href='https://play.google.com/store/apps/details?id=com.djit.mixfader.sample&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="200"/></a>
 </p>
