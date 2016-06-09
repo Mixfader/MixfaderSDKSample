@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 Djit SAS
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_main_grid_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/default_space"
+    tools:context=".mixfader.MixFaderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/mixfader_logo"
+            tools:ignore="ContentDescription"/>
+
+        <include layout="@layout/content_connection"/>
+
+        <include layout="@layout/content_notifications"/>
+
+        <include layout="@layout/content_information"/>
+
+        <include layout="@layout/content_rssi"/>
+
+        <include layout="@layout/content_statistics"/>
+
+        <include layout="@layout/content_states"/>
+
+        <include layout="@layout/content_blink"/>
+
+        <include layout="@layout/content_calibration"/>
+
+        <include layout="@layout/content_name"/>
+
+        <include layout="@layout/content_color"/>
+
+    </LinearLayout>
+
+</ScrollView>

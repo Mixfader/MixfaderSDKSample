@@ -1,0 +1,109 @@
+<!--
+    Copyright (C) 2016 Djit SAS
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <string name="app_name">MixFader SDK Sample</string>
+    <string name="ble_not_supported">BLE not supported on this device…</string>
+
+    <!--ScanActivity-->
+    <string name="mxf_mixfaderscanner">MixFaderScanner</string>
+    <string name="mxf_enable_disable_scanner">Enable / disable scanning</string>
+    <string name="mxf_devices_found_nearby">Devices found nearby</string>
+
+    <!--Connection-->
+    <string name="mxf_connection">CONNECTION</string>
+    <string name="mxf_connect">Connect</string>
+    <string name="mxf_connecting">Connecting…</string>
+    <string name="mxf_disconnect">Disconnect</string>
+    <string name="mxf_connection_status">Connection status :</string>
+
+    <!--Notifications-->
+    <string name="mxf_notifications">NOTIFICATIONS</string>
+    <string name="mxf_enable_disable_crossfader_notifications">Enable / disable crossfader notifications :</string>
+    <string name="mxf_set_orientation_reversed">Set orientation reversed :</string>
+
+    <!--Information-->
+    <string name="mxf_information">INFORMATION</string>
+    <string name="mxf_serial">Serial</string>
+    <string name="mxf_soft_version">Soft. version</string>
+    <string name="mxf_hard_version">Hard. version</string>
+
+    <!--Rssi-->
+    <string name="mxf_rssi">RSSI</string>
+    <string name="mxf_rssi_db">Rssi (dB)</string>
+    <string name="mxf_level">Level</string>
+
+    <!--Statistics-->
+    <string name="mxf_statistics">STATISTICS</string>
+    <string name="mxf_crossfader">Crossfader</string>
+    <string name="mxf_button">Button</string>
+    <string name="mxf_battery">Battery</string>
+    <string name="mxf_connections">Connections</string>
+
+    <!--States-->
+    <string name="mxf_states">STATES</string>
+    <string name="mxf_button_state">Button state</string>
+    <string name="mxf_charging_state">Charging state</string>
+
+    <!--Blink-->
+    <string name="mxf_blink">BLINK</string>
+    <string name="mxf_make_the_led_blink">Make the LED blink :</string>
+
+    <!--Calibration-->
+    <string name="mxf_calibration">CALIBRATION</string>
+    <string name="mxf_start">START</string>
+    <string name="mxf_cancel">@android:string/cancel</string>
+    <string name="mxf_reset">RESET</string>
+    <string name="mxf_calibration_state">Calibration state</string>
+
+    <!--Name-->
+    <string name="mxf_name">NAME</string>
+    <string name="mxf_current_name">Current name</string>
+    <string name="mxf_new_name">New name</string>
+    <string name="mxf_mymixfader">MyMixFader</string>
+    <string name="mxf_set">SET</string>
+
+    <!--Color-->
+    <string name="mxf_color">COLOR</string>
+    <string name="mxf_current_color">Current color</string>
+    <string name="mxf_new_color">New color</string>
+    <string-array name="mxf_hex_color_array">
+        <item>#F44336</item>
+        <item>#3F51B5</item>
+        <item>#4CAF50</item>
+        <item>#FF9800</item>
+        <item>#795548</item>
+        <item>#FFEB3B</item>
+        <item>#673AB7</item>
+        <item>#9E9E9E</item>
+    </string-array>
+
+    <!--SampleInformationDialogFragment-->
+    <string name="mxf_sample_information">
+        This sample shows how to use the MixFader SDK within you application.\n\n
+
+        You are currently on ScanActivity. This Activity let you scan for nearby devices
+        using MixFaderScanner. This can be achieved with the corresponding switch.\n\n
+
+        The nearby devices will be shown in the list below. Just search for your MixFader\'s
+        name in this list and click on its card. You will jump to the MixFaderActivity which
+        displays the detailed information about your MixFader.\n\n
+
+        You will also be able to connect and dialog with MixFader !\n\n
+
+        Happy coding :)
+    </string>
+
+</resources>
