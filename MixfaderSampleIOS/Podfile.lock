@@ -1,0 +1,12 @@
+PODS:
+  - MixfaderSDKCocoa (2.0.2)
+
+DEPENDENCIES:
+  - MixfaderSDKCocoa
+
+SPEC CHECKSUMS:
+  MixfaderSDKCocoa: d875b770cfc80e05a52c4d5c52e507de52b3bdfe
+
+PODFILE CHECKSUM: f933877e1f9fccea0d4f7fbe0f16850a26adbabb
+
+COCOAPODS: 1.0.1

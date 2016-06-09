@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MixfaderSample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DC04F7BA1CFCB1A2001D1A18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC079ED71CF34E0D007E3688</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC95D9311CFF1400003E5616</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

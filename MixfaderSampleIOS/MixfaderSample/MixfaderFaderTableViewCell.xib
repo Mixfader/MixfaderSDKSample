@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="faderCell" rowHeight="230" id="KGk-i7-Jjw" customClass="MixfaderFaderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="229.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crossfader" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVO-ee-BR1">
+                        <rect key="frame" x="16" y="12" width="91" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.15686274510000001" green="0.16862745100000001" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PhI-8q-i5z">
+                        <rect key="frame" x="320" y="101" width="51" height="31"/>
+                        <color key="onTintColor" red="0.2156862745" green="0.69411764710000001" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="onFaderReverse:" destination="KGk-i7-Jjw" eventType="valueChanged" id="k40-oa-2fV"/>
+                        </connections>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable crossfader notifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Uk-sz-W1u">
+                        <rect key="frame" x="41" y="62" width="199.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.3294117647" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reverse crossfader orientation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZL-bg-1jF">
+                        <rect key="frame" x="41" y="108" width="197.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.3294117647" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change crossfader notification mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8V-Jq-LGE">
+                        <rect key="frame" x="41" y="154" width="328" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.3294117647" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hjT-Hj-3T3">
+                        <rect key="frame" x="41" y="184" width="328" height="29"/>
+                        <segments>
+                            <segment title="Always"/>
+                            <segment title="On value change"/>
+                        </segments>
+                        <color key="tintColor" red="0.33333333329999998" green="0.3294117647" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="onFaderNotificationModeChange:" destination="KGk-i7-Jjw" eventType="valueChanged" id="4Qb-yf-WJD"/>
+                        </connections>
+                    </segmentedControl>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l2M-in-ySm">
+                        <rect key="frame" x="320" y="55" width="51" height="31"/>
+                        <color key="onTintColor" red="0.2156862745" green="0.69411764710000001" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="onFaderNotificationEnable:" destination="KGk-i7-Jjw" eventType="valueChanged" id="Rtq-fN-qUU"/>
+                        </connections>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="S8V-Jq-LGE" firstAttribute="top" secondItem="fZL-bg-1jF" secondAttribute="bottom" constant="29" id="4gT-e7-UGE"/>
+                    <constraint firstItem="8Uk-sz-W1u" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="33" id="54K-Ij-KxZ"/>
+                    <constraint firstItem="PhI-8q-i5z" firstAttribute="centerY" secondItem="fZL-bg-1jF" secondAttribute="centerY" id="6wr-ih-ero"/>
+                    <constraint firstItem="8Uk-sz-W1u" firstAttribute="top" secondItem="mVO-ee-BR1" secondAttribute="bottom" constant="29" id="8v3-ho-ulz"/>
+                    <constraint firstItem="hjT-Hj-3T3" firstAttribute="trailing" secondItem="S8V-Jq-LGE" secondAttribute="trailing" id="AzK-dh-QAg"/>
+                    <constraint firstItem="hjT-Hj-3T3" firstAttribute="top" secondItem="S8V-Jq-LGE" secondAttribute="bottom" constant="13" id="CBV-02-ZD7"/>
+                    <constraint firstItem="PhI-8q-i5z" firstAttribute="trailing" secondItem="l2M-in-ySm" secondAttribute="trailing" id="D3E-z9-Gh8"/>
+                    <constraint firstItem="mVO-ee-BR1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="DGo-Lh-gs5"/>
+                    <constraint firstItem="hjT-Hj-3T3" firstAttribute="leading" secondItem="S8V-Jq-LGE" secondAttribute="leading" id="ESG-6O-sZR"/>
+                    <constraint firstItem="S8V-Jq-LGE" firstAttribute="leading" secondItem="fZL-bg-1jF" secondAttribute="leading" id="R5R-aj-3TE"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="l2M-in-ySm" secondAttribute="trailing" constant="20" id="VQV-CW-oIK"/>
+                    <constraint firstItem="mVO-ee-BR1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="a2A-6M-gJi"/>
+                    <constraint firstItem="PhI-8q-i5z" firstAttribute="trailing" secondItem="S8V-Jq-LGE" secondAttribute="trailing" id="bye-Zb-vUk"/>
+                    <constraint firstItem="fZL-bg-1jF" firstAttribute="top" secondItem="8Uk-sz-W1u" secondAttribute="bottom" constant="29" id="fcP-dp-7uK"/>
+                    <constraint firstItem="fZL-bg-1jF" firstAttribute="leading" secondItem="8Uk-sz-W1u" secondAttribute="leading" id="oxg-wK-i8C"/>
+                    <constraint firstItem="l2M-in-ySm" firstAttribute="centerY" secondItem="8Uk-sz-W1u" secondAttribute="centerY" id="pKY-C6-OnA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="enableNotificationSwitch" destination="l2M-in-ySm" id="cyY-Lv-OhS"/>
+                <outlet property="modeSegmentControl" destination="hjT-Hj-3T3" id="WZl-HJ-ZTv"/>
+                <outlet property="reverseCrossfaderSwitch" destination="PhI-8q-i5z" id="rhy-yA-wwg"/>
+            </connections>
+            <point key="canvasLocation" x="242.5" y="328"/>
+        </tableViewCell>
+    </objects>
+</document>

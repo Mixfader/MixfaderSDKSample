@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09EF7369A56DD44BB96E2C28 /* libPods-MixfaderSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1147E543CF7C327A5829340 /* libPods-MixfaderSample.a */; };
+		DC079EDD1CF34E0D007E3688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC079EDC1CF34E0D007E3688 /* main.m */; };
+		DC079EE01CF34E0D007E3688 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC079EDF1CF34E0D007E3688 /* AppDelegate.m */; };
+		DC079EE31CF34E0D007E3688 /* MixfaderListeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC079EE21CF34E0D007E3688 /* MixfaderListeViewController.m */; };
+		DC079EE61CF34E0D007E3688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC079EE41CF34E0D007E3688 /* Main.storyboard */; };
+		DC079EE81CF34E0D007E3688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC079EE71CF34E0D007E3688 /* Assets.xcassets */; };
+		DC079EEB1CF34E0D007E3688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC079EE91CF34E0D007E3688 /* LaunchScreen.storyboard */; };
+		DC079EF51CF374EF007E3688 /* MixfaderListCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC079EF41CF374EF007E3688 /* MixfaderListCellTableViewCell.m */; };
+		DC8395CD1CFDE918009A068F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC8395CC1CFDE918009A068F /* LICENSE.txt */; };
+		DCBC1A651CF45638008B7BF1 /* MixfaderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A641CF45638008B7BF1 /* MixfaderDetailViewController.m */; };
+		DCBC1A711CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A6F1CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.m */; };
+		DCBC1A721CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1A701CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.xib */; };
+		DCBC1A771CF4C298008B7BF1 /* MixfaderFaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A751CF4C298008B7BF1 /* MixfaderFaderTableViewCell.m */; };
+		DCBC1A781CF4C298008B7BF1 /* MixfaderFaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1A761CF4C298008B7BF1 /* MixfaderFaderTableViewCell.xib */; };
+		DCBC1A7D1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A7B1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.m */; };
+		DCBC1A7E1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1A7C1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.xib */; };
+		DCBC1A821CF59F28008B7BF1 /* MixfaderButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A801CF59F28008B7BF1 /* MixfaderButtonTableViewCell.m */; };
+		DCBC1A831CF59F28008B7BF1 /* MixfaderButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1A811CF59F28008B7BF1 /* MixfaderButtonTableViewCell.xib */; };
+		DCBC1A881CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A861CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.m */; };
+		DCBC1A891CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1A871CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.xib */; };
+		DCBC1A8F1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A8D1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.m */; };
+		DCBC1A901CF5D301008B7BF1 /* MixfaderStatsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1A8E1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.xib */; };
+		DCBC1A951CF5D314008B7BF1 /* MixfaderLedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A931CF5D314008B7BF1 /* MixfaderLedTableViewCell.m */; };
+		DCBC1A961CF5D314008B7BF1 /* MixfaderLedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1A941CF5D314008B7BF1 /* MixfaderLedTableViewCell.xib */; };
+		DCBC1A9A1CF5D322008B7BF1 /* MixfaderNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A981CF5D322008B7BF1 /* MixfaderNameTableViewCell.m */; };
+		DCBC1A9B1CF5D322008B7BF1 /* MixfaderNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1A991CF5D322008B7BF1 /* MixfaderNameTableViewCell.xib */; };
+		DCBC1AA11CF5D365008B7BF1 /* MixfaderColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1A9F1CF5D365008B7BF1 /* MixfaderColorTableViewCell.m */; };
+		DCBC1AA21CF5D365008B7BF1 /* MixfaderColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1AA01CF5D365008B7BF1 /* MixfaderColorTableViewCell.xib */; };
+		DCBC1AA71CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1AA51CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.m */; };
+		DCBC1AA81CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBC1AA61CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.xib */; };
+		DCBC1AAB1CF6E3EC008B7BF1 /* MixfaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBC1AAA1CF6E3EC008B7BF1 /* MixfaderTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCC4B9061D0061F900E8092D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7EEEEEBCECDEB7F38DBF8245 /* Pods-MixfaderSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixfaderSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixfaderSample/Pods-MixfaderSample.debug.xcconfig"; sourceTree = "<group>"; };
+		C1147E543CF7C327A5829340 /* libPods-MixfaderSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixfaderSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC079ED81CF34E0D007E3688 /* MixfaderSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixfaderSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC079EDC1CF34E0D007E3688 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC079EDE1CF34E0D007E3688 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC079EDF1CF34E0D007E3688 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC079EE11CF34E0D007E3688 /* MixfaderListeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixfaderListeViewController.h; sourceTree = "<group>"; };
+		DC079EE21CF34E0D007E3688 /* MixfaderListeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixfaderListeViewController.m; sourceTree = "<group>"; };
+		DC079EE51CF34E0D007E3688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC079EE71CF34E0D007E3688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC079EEA1CF34E0D007E3688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC079EEC1CF34E0D007E3688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC079EF31CF374EF007E3688 /* MixfaderListCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderListCellTableViewCell.h; sourceTree = "<group>"; };
+		DC079EF41CF374EF007E3688 /* MixfaderListCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderListCellTableViewCell.m; sourceTree = "<group>"; };
+		DC8395CC1CFDE918009A068F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DCBC1A631CF45638008B7BF1 /* MixfaderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderDetailViewController.h; sourceTree = "<group>"; };
+		DCBC1A641CF45638008B7BF1 /* MixfaderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderDetailViewController.m; sourceTree = "<group>"; };
+		DCBC1A6E1CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderInfoTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1A6F1CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderInfoTableViewCell.m; sourceTree = "<group>"; };
+		DCBC1A701CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderInfoTableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1A741CF4C298008B7BF1 /* MixfaderFaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderFaderTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1A751CF4C298008B7BF1 /* MixfaderFaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderFaderTableViewCell.m; sourceTree = "<group>"; };
+		DCBC1A761CF4C298008B7BF1 /* MixfaderFaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderFaderTableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1A7A1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderBatteryTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1A7B1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderBatteryTableViewCell.m; sourceTree = "<group>"; };
+		DCBC1A7C1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderBatteryTableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1A7F1CF59F28008B7BF1 /* MixfaderButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderButtonTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1A801CF59F28008B7BF1 /* MixfaderButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderButtonTableViewCell.m; sourceTree = "<group>"; };
+		DCBC1A811CF59F28008B7BF1 /* MixfaderButtonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderButtonTableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1A851CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderRSSITableViewCell.h; sourceTree = "<group>"; };
+		DCBC1A861CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderRSSITableViewCell.m; sourceTree = "<group>"; };
+		DCBC1A871CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderRSSITableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1A8C1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderStatsTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1A8D1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderStatsTableViewCell.m; sourceTree = "<group>"; };
+		DCBC1A8E1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderStatsTableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1A921CF5D314008B7BF1 /* MixfaderLedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderLedTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1A931CF5D314008B7BF1 /* MixfaderLedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderLedTableViewCell.m; sourceTree = "<group>"; };
+		DCBC1A941CF5D314008B7BF1 /* MixfaderLedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderLedTableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1A971CF5D322008B7BF1 /* MixfaderNameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderNameTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1A981CF5D322008B7BF1 /* MixfaderNameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderNameTableViewCell.m; sourceTree = "<group>"; };
+		DCBC1A991CF5D322008B7BF1 /* MixfaderNameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderNameTableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1A9E1CF5D365008B7BF1 /* MixfaderColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderColorTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1A9F1CF5D365008B7BF1 /* MixfaderColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderColorTableViewCell.m; sourceTree = "<group>"; };
+		DCBC1AA01CF5D365008B7BF1 /* MixfaderColorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderColorTableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1AA41CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderCalibrationTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1AA51CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderCalibrationTableViewCell.m; sourceTree = "<group>"; };
+		DCBC1AA61CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixfaderCalibrationTableViewCell.xib; sourceTree = "<group>"; };
+		DCBC1AA91CF6E3EC008B7BF1 /* MixfaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixfaderTableViewCell.h; sourceTree = "<group>"; };
+		DCBC1AAA1CF6E3EC008B7BF1 /* MixfaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixfaderTableViewCell.m; sourceTree = "<group>"; };
+		FAC9845994E68C2811CAE44E /* Pods-MixfaderSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixfaderSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixfaderSample/Pods-MixfaderSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC079ED51CF34E0D007E3688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EF7369A56DD44BB96E2C28 /* libPods-MixfaderSample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8C6E1A7D90B90DB908C4F2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EEEEEBCECDEB7F38DBF8245 /* Pods-MixfaderSample.debug.xcconfig */,
+				FAC9845994E68C2811CAE44E /* Pods-MixfaderSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF4C5165901B5DC692F62DAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1147E543CF7C327A5829340 /* libPods-MixfaderSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC079ECF1CF34E0D007E3688 = {
+			isa = PBXGroup;
+			children = (
+				DC8395CC1CFDE918009A068F /* LICENSE.txt */,
+				DC079EDA1CF34E0D007E3688 /* MixfaderSample */,
+				DC079ED91CF34E0D007E3688 /* Products */,
+				B8C6E1A7D90B90DB908C4F2F /* Pods */,
+				CF4C5165901B5DC692F62DAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC079ED91CF34E0D007E3688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC079ED81CF34E0D007E3688 /* MixfaderSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC079EDA1CF34E0D007E3688 /* MixfaderSample */ = {
+			isa = PBXGroup;
+			children = (
+				DC079EDE1CF34E0D007E3688 /* AppDelegate.h */,
+				DC079EDF1CF34E0D007E3688 /* AppDelegate.m */,
+				DCBC1A671CF4BAF4008B7BF1 /* Liste */,
+				DCBC1A661CF4BAE7008B7BF1 /* Detail */,
+				DC079EE41CF34E0D007E3688 /* Main.storyboard */,
+				DC079EE91CF34E0D007E3688 /* LaunchScreen.storyboard */,
+				DC079EE71CF34E0D007E3688 /* Assets.xcassets */,
+				DC079EEC1CF34E0D007E3688 /* Info.plist */,
+				DC079EDB1CF34E0D007E3688 /* Supporting Files */,
+			);
+			path = MixfaderSample;
+			sourceTree = "<group>";
+		};
+		DC079EDB1CF34E0D007E3688 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC079EDC1CF34E0D007E3688 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCBC1A661CF4BAE7008B7BF1 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A631CF45638008B7BF1 /* MixfaderDetailViewController.h */,
+				DCBC1A641CF45638008B7BF1 /* MixfaderDetailViewController.m */,
+				DCBC1A691CF4BB03008B7BF1 /* cell */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		DCBC1A671CF4BAF4008B7BF1 /* Liste */ = {
+			isa = PBXGroup;
+			children = (
+				DC079EE11CF34E0D007E3688 /* MixfaderListeViewController.h */,
+				DC079EE21CF34E0D007E3688 /* MixfaderListeViewController.m */,
+				DCBC1A681CF4BAFC008B7BF1 /* cell */,
+			);
+			name = Liste;
+			sourceTree = "<group>";
+		};
+		DCBC1A681CF4BAFC008B7BF1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC079EF31CF374EF007E3688 /* MixfaderListCellTableViewCell.h */,
+				DC079EF41CF374EF007E3688 /* MixfaderListCellTableViewCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		DCBC1A691CF4BB03008B7BF1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1AA31CF60741008B7BF1 /* calibrationCell */,
+				DCBC1A9D1CF5D354008B7BF1 /* color cell */,
+				DCBC1A841CF59F2E008B7BF1 /* button cell */,
+				DCBC1A791CF5986E008B7BF1 /* battery cell */,
+				DCBC1A731CF4C281008B7BF1 /* fader cell */,
+				DCBC1A6A1CF4BB08008B7BF1 /* info cell */,
+				DCBC1A911CF5D304008B7BF1 /* led cell */,
+				DCBC1A9C1CF5D326008B7BF1 /* name cell */,
+				DCBC1A8A1CF5A3DC008B7BF1 /* rssi cell */,
+				DCBC1A8B1CF5D2EF008B7BF1 /* stats cell */,
+				DCBC1AA91CF6E3EC008B7BF1 /* MixfaderTableViewCell.h */,
+				DCBC1AAA1CF6E3EC008B7BF1 /* MixfaderTableViewCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		DCBC1A6A1CF4BB08008B7BF1 /* info cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A6E1CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.h */,
+				DCBC1A6F1CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.m */,
+				DCBC1A701CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.xib */,
+			);
+			name = "info cell";
+			sourceTree = "<group>";
+		};
+		DCBC1A731CF4C281008B7BF1 /* fader cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A741CF4C298008B7BF1 /* MixfaderFaderTableViewCell.h */,
+				DCBC1A751CF4C298008B7BF1 /* MixfaderFaderTableViewCell.m */,
+				DCBC1A761CF4C298008B7BF1 /* MixfaderFaderTableViewCell.xib */,
+			);
+			name = "fader cell";
+			sourceTree = "<group>";
+		};
+		DCBC1A791CF5986E008B7BF1 /* battery cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A7A1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.h */,
+				DCBC1A7B1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.m */,
+				DCBC1A7C1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.xib */,
+			);
+			name = "battery cell";
+			sourceTree = "<group>";
+		};
+		DCBC1A841CF59F2E008B7BF1 /* button cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A7F1CF59F28008B7BF1 /* MixfaderButtonTableViewCell.h */,
+				DCBC1A801CF59F28008B7BF1 /* MixfaderButtonTableViewCell.m */,
+				DCBC1A811CF59F28008B7BF1 /* MixfaderButtonTableViewCell.xib */,
+			);
+			name = "button cell";
+			sourceTree = "<group>";
+		};
+		DCBC1A8A1CF5A3DC008B7BF1 /* rssi cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A851CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.h */,
+				DCBC1A861CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.m */,
+				DCBC1A871CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.xib */,
+			);
+			name = "rssi cell";
+			sourceTree = "<group>";
+		};
+		DCBC1A8B1CF5D2EF008B7BF1 /* stats cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A8C1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.h */,
+				DCBC1A8D1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.m */,
+				DCBC1A8E1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.xib */,
+			);
+			name = "stats cell";
+			sourceTree = "<group>";
+		};
+		DCBC1A911CF5D304008B7BF1 /* led cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A921CF5D314008B7BF1 /* MixfaderLedTableViewCell.h */,
+				DCBC1A931CF5D314008B7BF1 /* MixfaderLedTableViewCell.m */,
+				DCBC1A941CF5D314008B7BF1 /* MixfaderLedTableViewCell.xib */,
+			);
+			name = "led cell";
+			sourceTree = "<group>";
+		};
+		DCBC1A9C1CF5D326008B7BF1 /* name cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A971CF5D322008B7BF1 /* MixfaderNameTableViewCell.h */,
+				DCBC1A981CF5D322008B7BF1 /* MixfaderNameTableViewCell.m */,
+				DCBC1A991CF5D322008B7BF1 /* MixfaderNameTableViewCell.xib */,
+			);
+			name = "name cell";
+			sourceTree = "<group>";
+		};
+		DCBC1A9D1CF5D354008B7BF1 /* color cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1A9E1CF5D365008B7BF1 /* MixfaderColorTableViewCell.h */,
+				DCBC1A9F1CF5D365008B7BF1 /* MixfaderColorTableViewCell.m */,
+				DCBC1AA01CF5D365008B7BF1 /* MixfaderColorTableViewCell.xib */,
+			);
+			name = "color cell";
+			sourceTree = "<group>";
+		};
+		DCBC1AA31CF60741008B7BF1 /* calibrationCell */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC1AA41CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.h */,
+				DCBC1AA51CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.m */,
+				DCBC1AA61CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.xib */,
+			);
+			name = calibrationCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC079ED71CF34E0D007E3688 /* MixfaderSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC079EEF1CF34E0D007E3688 /* Build configuration list for PBXNativeTarget "MixfaderSample" */;
+			buildPhases = (
+				897C2964EB534F4CA5776E78 /* [CP] Check Pods Manifest.lock */,
+				DC079ED41CF34E0D007E3688 /* Sources */,
+				DC079ED51CF34E0D007E3688 /* Frameworks */,
+				DC079ED61CF34E0D007E3688 /* Resources */,
+				4B19F22FBD843FCA8D36B233 /* [CP] Embed Pods Frameworks */,
+				0E04A2A169A8B4FE89BE434C /* [CP] Copy Pods Resources */,
+				DCC4B9061D0061F900E8092D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixfaderSample;
+			productName = MixfaderSample;
+			productReference = DC079ED81CF34E0D007E3688 /* MixfaderSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC079ED01CF34E0D007E3688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = djit;
+				TargetAttributes = {
+					DC079ED71CF34E0D007E3688 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZUQ3ZP29N4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DC079ED31CF34E0D007E3688 /* Build configuration list for PBXProject "MixfaderSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC079ECF1CF34E0D007E3688;
+			productRefGroup = DC079ED91CF34E0D007E3688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC079ED71CF34E0D007E3688 /* MixfaderSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC079ED61CF34E0D007E3688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC079EEB1CF34E0D007E3688 /* LaunchScreen.storyboard in Resources */,
+				DCBC1A721CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.xib in Resources */,
+				DCBC1A891CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.xib in Resources */,
+				DCBC1A961CF5D314008B7BF1 /* MixfaderLedTableViewCell.xib in Resources */,
+				DCBC1A7E1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.xib in Resources */,
+				DCBC1A901CF5D301008B7BF1 /* MixfaderStatsTableViewCell.xib in Resources */,
+				DC8395CD1CFDE918009A068F /* LICENSE.txt in Resources */,
+				DCBC1AA81CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.xib in Resources */,
+				DC079EE81CF34E0D007E3688 /* Assets.xcassets in Resources */,
+				DCBC1A831CF59F28008B7BF1 /* MixfaderButtonTableViewCell.xib in Resources */,
+				DCBC1A781CF4C298008B7BF1 /* MixfaderFaderTableViewCell.xib in Resources */,
+				DCBC1AA21CF5D365008B7BF1 /* MixfaderColorTableViewCell.xib in Resources */,
+				DCBC1A9B1CF5D322008B7BF1 /* MixfaderNameTableViewCell.xib in Resources */,
+				DC079EE61CF34E0D007E3688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E04A2A169A8B4FE89BE434C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixfaderSample/Pods-MixfaderSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B19F22FBD843FCA8D36B233 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixfaderSample/Pods-MixfaderSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		897C2964EB534F4CA5776E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC079ED41CF34E0D007E3688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBC1A8F1CF5D301008B7BF1 /* MixfaderStatsTableViewCell.m in Sources */,
+				DCBC1AA71CF6076D008B7BF1 /* MixfaderCalibrationTableViewCell.m in Sources */,
+				DC079EE31CF34E0D007E3688 /* MixfaderListeViewController.m in Sources */,
+				DCBC1A821CF59F28008B7BF1 /* MixfaderButtonTableViewCell.m in Sources */,
+				DCBC1A711CF4BD3F008B7BF1 /* MixfaderInfoTableViewCell.m in Sources */,
+				DCBC1AAB1CF6E3EC008B7BF1 /* MixfaderTableViewCell.m in Sources */,
+				DCBC1A651CF45638008B7BF1 /* MixfaderDetailViewController.m in Sources */,
+				DCBC1A951CF5D314008B7BF1 /* MixfaderLedTableViewCell.m in Sources */,
+				DCBC1A881CF5A3D9008B7BF1 /* MixfaderRSSITableViewCell.m in Sources */,
+				DC079EF51CF374EF007E3688 /* MixfaderListCellTableViewCell.m in Sources */,
+				DCBC1A9A1CF5D322008B7BF1 /* MixfaderNameTableViewCell.m in Sources */,
+				DCBC1A771CF4C298008B7BF1 /* MixfaderFaderTableViewCell.m in Sources */,
+				DC079EE01CF34E0D007E3688 /* AppDelegate.m in Sources */,
+				DCBC1AA11CF5D365008B7BF1 /* MixfaderColorTableViewCell.m in Sources */,
+				DC079EDD1CF34E0D007E3688 /* main.m in Sources */,
+				DCBC1A7D1CF59890008B7BF1 /* MixfaderBatteryTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC079EE41CF34E0D007E3688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC079EE51CF34E0D007E3688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC079EE91CF34E0D007E3688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC079EEA1CF34E0D007E3688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC079EED1CF34E0D007E3688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC079EEE1CF34E0D007E3688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC079EF01CF34E0D007E3688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEEEEBCECDEB7F38DBF8245 /* Pods-MixfaderSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MixfaderSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.djit.MixfaderSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC079EF11CF34E0D007E3688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC9845994E68C2811CAE44E /* Pods-MixfaderSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MixfaderSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.djit.MixfaderSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC079ED31CF34E0D007E3688 /* Build configuration list for PBXProject "MixfaderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC079EED1CF34E0D007E3688 /* Debug */,
+				DC079EEE1CF34E0D007E3688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC079EEF1CF34E0D007E3688 /* Build configuration list for PBXNativeTarget "MixfaderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC079EF01CF34E0D007E3688 /* Debug */,
+				DC079EF11CF34E0D007E3688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC079ED01CF34E0D007E3688 /* Project object */;
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="batteryCell" rowHeight="133" id="KGk-i7-Jjw" customClass="MixfaderBatteryTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="134.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Battery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRI-3l-f9e">
+                        <rect key="frame" x="16" y="12" width="62" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.15686274510000001" green="0.16862745100000001" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <progressView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qxK-7B-86B">
+                        <rect key="frame" x="258" y="65" width="46" height="2"/>
+                        <color key="progressTintColor" red="0.2156862745" green="0.69411764710000001" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </progressView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 %" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="piT-Wp-8PG">
+                        <rect key="frame" x="258" y="44" width="46" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Battery value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCw-Ia-CzQ">
+                        <rect key="frame" x="41" y="49" width="85" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.3294117647" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Battery charging" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZ3-o1-dpq">
+                        <rect key="frame" x="41" y="91" width="108" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.3294117647" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u6d-cA-ZI9">
+                        <rect key="frame" x="255" y="84" width="51" height="31"/>
+                        <color key="onTintColor" red="0.2156862745" green="0.69411764710000001" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="piT-Wp-8PG" firstAttribute="centerY" secondItem="eCw-Ia-CzQ" secondAttribute="centerY" constant="-3" id="Dho-EZ-gHO"/>
+                    <constraint firstItem="eCw-Ia-CzQ" firstAttribute="top" secondItem="qRI-3l-f9e" secondAttribute="bottom" constant="16" id="OTC-3I-icI"/>
+                    <constraint firstItem="u6d-cA-ZI9" firstAttribute="centerY" secondItem="mZ3-o1-dpq" secondAttribute="centerY" id="P9A-Xq-sft"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="piT-Wp-8PG" secondAttribute="trailing" constant="8" id="QU1-13-Y1J"/>
+                    <constraint firstItem="mZ3-o1-dpq" firstAttribute="top" secondItem="eCw-Ia-CzQ" secondAttribute="bottom" constant="25" id="Rdc-St-Y9s"/>
+                    <constraint firstItem="mZ3-o1-dpq" firstAttribute="leading" secondItem="eCw-Ia-CzQ" secondAttribute="leading" id="aYj-zf-8u9"/>
+                    <constraint firstItem="qxK-7B-86B" firstAttribute="leading" secondItem="piT-Wp-8PG" secondAttribute="leading" id="kGX-4U-zKW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="u6d-cA-ZI9" secondAttribute="trailing" constant="8" id="m5B-I9-2hh"/>
+                    <constraint firstItem="eCw-Ia-CzQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="33" id="nRk-sr-op5"/>
+                    <constraint firstItem="qRI-3l-f9e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="pMm-OB-g5N"/>
+                    <constraint firstItem="qRI-3l-f9e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="puu-Gv-Ui5"/>
+                    <constraint firstItem="qxK-7B-86B" firstAttribute="trailing" secondItem="piT-Wp-8PG" secondAttribute="trailing" id="qz6-fl-An4"/>
+                    <constraint firstItem="u6d-cA-ZI9" firstAttribute="trailing" secondItem="piT-Wp-8PG" secondAttribute="trailing" id="tZi-cF-NaW"/>
+                    <constraint firstItem="qxK-7B-86B" firstAttribute="top" secondItem="piT-Wp-8PG" secondAttribute="bottom" id="ulU-a9-rmY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="batteryProgressValue" destination="qxK-7B-86B" id="ZW8-jP-XUr"/>
+                <outlet property="batteryValueLabel" destination="piT-Wp-8PG" id="DnB-Kq-Lrw"/>
+                <outlet property="chargingSwitch" destination="u6d-cA-ZI9" id="QDV-Ul-klL"/>
+            </connections>
+            <point key="canvasLocation" x="215" y="597.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A128561DC9FB434D3D7AC02C19D4511 /* Pods-MixfaderSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4728AD4463C98D9FE7620C7FEA092AF /* Pods-MixfaderSample-dummy.m */; };
+		D4AD3412C3362677CD79DA909C2E6BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16B4F1F9934C95585752AD215AE8ED3E /* Pods-MixfaderSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MixfaderSample-frameworks.sh"; sourceTree = "<group>"; };
+		1E6E6EC50F6F3FE62211C86A528CA3D0 /* MixfaderSDK_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixfaderSDK_iOS.h; path = MixfaderSDK_iOS.framework/Headers/MixfaderSDK_iOS.h; sourceTree = "<group>"; };
+		2432BD2BB756AE5A514C47591CFB9FA5 /* Pods-MixfaderSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MixfaderSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		32643CBC01E609C2FCC22B674E1403BB /* MXFErrorDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFErrorDefine.h; path = MixfaderSDK_OSX.framework/Versions/A/Headers/MXFErrorDefine.h; sourceTree = "<group>"; };
+		3C3DFE24C664806E144F303FE034BA1D /* MixfaderSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MixfaderSDK_iOS.framework; sourceTree = "<group>"; };
+		693C38D2A064F7AA8BB118356D2431D6 /* MixfaderSDK_OSX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixfaderSDK_OSX.h; path = MixfaderSDK_OSX.framework/Versions/A/Headers/MixfaderSDK_OSX.h; sourceTree = "<group>"; };
+		6F1FC3A98FFCEA75C049AE3B78F20D5C /* Pods-MixfaderSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MixfaderSample.release.xcconfig"; sourceTree = "<group>"; };
+		7D342AC18779DCE3C592521A4FAA13A2 /* MXFSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFSession.h; path = MixfaderSDK_OSX.framework/Versions/A/Headers/MXFSession.h; sourceTree = "<group>"; };
+		8C36B6F890433855E1A8956637592E41 /* MXFDefinesHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFDefinesHeader.h; path = MixfaderSDK_iOS.framework/Headers/MXFDefinesHeader.h; sourceTree = "<group>"; };
+		9272D5BF3AA6FD352C9B4F68DF062C82 /* Pods-MixfaderSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MixfaderSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964F7A4572CB3C80F3CA3CF827BF3402 /* MXFSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFSession.h; path = MixfaderSDK_iOS.framework/Headers/MXFSession.h; sourceTree = "<group>"; };
+		9BD6A1F1F5E939A6B307F91B09AA3053 /* MXFMixfaderInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFMixfaderInterface.h; path = MixfaderSDK_iOS.framework/Headers/MXFMixfaderInterface.h; sourceTree = "<group>"; };
+		9DFBFD1218D07E8AB90D2C830E168760 /* MXFErrorDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFErrorDefine.h; path = MixfaderSDK_iOS.framework/Headers/MXFErrorDefine.h; sourceTree = "<group>"; };
+		B3D38C6EE4D939FCD85B4620DBF38F5F /* MXFDefinesHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFDefinesHeader.h; path = MixfaderSDK_OSX.framework/Versions/A/Headers/MXFDefinesHeader.h; sourceTree = "<group>"; };
+		B6CA79A78FEF07AC7C9318C9BA2D53D4 /* Pods-MixfaderSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MixfaderSample-resources.sh"; sourceTree = "<group>"; };
+		B7D734A1EB1CEE959155CC4749DF71DE /* MXFMixfaderInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFMixfaderInterface.h; path = MixfaderSDK_OSX.framework/Versions/A/Headers/MXFMixfaderInterface.h; sourceTree = "<group>"; };
+		CDD060AF3953B26530EFA07555AA94DA /* MXFTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFTypes.h; path = MixfaderSDK_iOS.framework/Headers/MXFTypes.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF230EE011820F14728B0984A353155F /* Pods-MixfaderSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MixfaderSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E4728AD4463C98D9FE7620C7FEA092AF /* Pods-MixfaderSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MixfaderSample-dummy.m"; sourceTree = "<group>"; };
+		E97EBEBB5842E7BC87E89B9043134C04 /* MXFTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXFTypes.h; path = MixfaderSDK_OSX.framework/Versions/A/Headers/MXFTypes.h; sourceTree = "<group>"; };
+		F4C2BBF762ECB6679116A772287A8439 /* libPods-MixfaderSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixfaderSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C305FDF637D9A98873CAEB8148FAB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AD3412C3362677CD79DA909C2E6BBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D19E1141A037407FF298138F5F83B6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C3DFE24C664806E144F303FE034BA1D /* MixfaderSDK_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		448A0BCE7D89F4E3AFA7B40B854DD078 /* MixfaderSDKCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E6EC50F6F3FE62211C86A528CA3D0 /* MixfaderSDK_iOS.h */,
+				693C38D2A064F7AA8BB118356D2431D6 /* MixfaderSDK_OSX.h */,
+				B3D38C6EE4D939FCD85B4620DBF38F5F /* MXFDefinesHeader.h */,
+				8C36B6F890433855E1A8956637592E41 /* MXFDefinesHeader.h */,
+				9DFBFD1218D07E8AB90D2C830E168760 /* MXFErrorDefine.h */,
+				32643CBC01E609C2FCC22B674E1403BB /* MXFErrorDefine.h */,
+				9BD6A1F1F5E939A6B307F91B09AA3053 /* MXFMixfaderInterface.h */,
+				B7D734A1EB1CEE959155CC4749DF71DE /* MXFMixfaderInterface.h */,
+				964F7A4572CB3C80F3CA3CF827BF3402 /* MXFSession.h */,
+				7D342AC18779DCE3C592521A4FAA13A2 /* MXFSession.h */,
+				CDD060AF3953B26530EFA07555AA94DA /* MXFTypes.h */,
+				E97EBEBB5842E7BC87E89B9043134C04 /* MXFTypes.h */,
+				0D19E1141A037407FF298138F5F83B6D /* Frameworks */,
+			);
+			path = MixfaderSDKCocoa;
+			sourceTree = "<group>";
+		};
+		48031CD24095563707B6E420F8D5421D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6B1477312DBE44B3CAA179F7E0106B4 /* Pods-MixfaderSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8AED24C1986766A0F6566D35C3BD8407 /* Pods */,
+				FE290F8A74F557E1AA739F7037DFDFC4 /* Products */,
+				48031CD24095563707B6E420F8D5421D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AED24C1986766A0F6566D35C3BD8407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				448A0BCE7D89F4E3AFA7B40B854DD078 /* MixfaderSDKCocoa */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6B1477312DBE44B3CAA179F7E0106B4 /* Pods-MixfaderSample */ = {
+			isa = PBXGroup;
+			children = (
+				9272D5BF3AA6FD352C9B4F68DF062C82 /* Pods-MixfaderSample-acknowledgements.markdown */,
+				2432BD2BB756AE5A514C47591CFB9FA5 /* Pods-MixfaderSample-acknowledgements.plist */,
+				E4728AD4463C98D9FE7620C7FEA092AF /* Pods-MixfaderSample-dummy.m */,
+				16B4F1F9934C95585752AD215AE8ED3E /* Pods-MixfaderSample-frameworks.sh */,
+				B6CA79A78FEF07AC7C9318C9BA2D53D4 /* Pods-MixfaderSample-resources.sh */,
+				DF230EE011820F14728B0984A353155F /* Pods-MixfaderSample.debug.xcconfig */,
+				6F1FC3A98FFCEA75C049AE3B78F20D5C /* Pods-MixfaderSample.release.xcconfig */,
+			);
+			name = "Pods-MixfaderSample";
+			path = "Target Support Files/Pods-MixfaderSample";
+			sourceTree = "<group>";
+		};
+		FE290F8A74F557E1AA739F7037DFDFC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C2BBF762ECB6679116A772287A8439 /* libPods-MixfaderSample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20E6D44846AFD99BCB2EB0A7A8C37E38 /* Pods-MixfaderSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71F1D8AC05B2D9EDFAD31AA816496DA /* Build configuration list for PBXNativeTarget "Pods-MixfaderSample" */;
+			buildPhases = (
+				BF0D8924B85FC0D02B1B47AD6538572C /* Sources */,
+				9C305FDF637D9A98873CAEB8148FAB50 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MixfaderSample";
+			productName = "Pods-MixfaderSample";
+			productReference = F4C2BBF762ECB6679116A772287A8439 /* libPods-MixfaderSample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FE290F8A74F557E1AA739F7037DFDFC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E6D44846AFD99BCB2EB0A7A8C37E38 /* Pods-MixfaderSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0D8924B85FC0D02B1B47AD6538572C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A128561DC9FB434D3D7AC02C19D4511 /* Pods-MixfaderSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08F0EA412F4EA5B02B73E5ED51BF7439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1FC3A98FFCEA75C049AE3B78F20D5C /* Pods-MixfaderSample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98329948C15D134921D1C3EC099E7DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF230EE011820F14728B0984A353155F /* Pods-MixfaderSample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71F1D8AC05B2D9EDFAD31AA816496DA /* Build configuration list for PBXNativeTarget "Pods-MixfaderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98329948C15D134921D1C3EC099E7DA5 /* Debug */,
+				08F0EA412F4EA5B02B73E5ED51BF7439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

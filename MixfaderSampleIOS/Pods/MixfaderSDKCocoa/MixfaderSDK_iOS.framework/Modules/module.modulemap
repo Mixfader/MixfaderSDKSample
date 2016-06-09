@@ -1,0 +1,6 @@
+framework module MixfaderSDK_iOS {
+  umbrella header "MixfaderSDK_iOS.h"
+
+  export *
+  module * { export * }
+}
