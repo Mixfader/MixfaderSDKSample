@@ -26,29 +26,24 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginBottom="@dimen/default_space"
+        android:layout_marginTop="@dimen/default_space"
         android:background="@android:color/darker_gray"/>
 
     <TextView
         android:id="@+id/mixfader_sample_manage_mixfader_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:gravity="start"
         android:text="@string/mxf_name"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginTop="2dp"
-        android:background="@android:color/darker_gray"/>
-
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_space">
 
         <TextView
             android:id="@+id/mxf_name_title_tv"
