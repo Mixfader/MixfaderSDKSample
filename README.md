@@ -17,14 +17,14 @@
     <img src="https://github.com/Mixfader/MixfaderSDKSample/blob/master/MixFaderActivity.png" width="275">
     <img src="https://github.com/Mixfader/MixfaderSDKSample/blob/master/MixFaderActivity2.png" width="275">
     <br/>
-The Android app is available on Google Play:<br/> <a href='https://play.google.com/store/apps/details?id=com.djit.mixfader.sample&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="200"/></a>
+The Android app is available on Google Play:<br/> <a href='https://play.google.com/store/apps/details?id=com.djit.mixfader.sample'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="200"/></a>
 </p>
 
-# SDK Usage
+# Add the SDK to your project
 ### Android
 The MixFader SDK may be found on jcenter repository. Add it to your project by adding the following dependency:
 ```groovy
-    compile 'com.djit.mixfader:mixfader:2.0.0'
+    compile 'com.djit.mixfader:mixfader:2.1.0'
 ```
 
 ### iOS
@@ -33,12 +33,9 @@ The Mixfader SDK is available on cocoaPods. Just add the following to your podfi
     pod 'MixfaderSDK'
 ```
 
-# Wiki
-### 1. [Home page](https://github.com/Mixfader/MixfaderSDKSample/wiki) 
+# Usage
 
-### 2. [Getting started : scan for MixFader](http://gitlab.djit.fr/android-apps/mixfader-sdk-sample/blob/master/SCAN.md)
-
-### 3. [Interact with MixFader](http://gitlab.djit.fr/android-apps/mixfader-sdk-sample/blob/master/DIALOG.md)
+MixFader features are described in the [Wiki](https://github.com/Mixfader/MixfaderSDKSample/wiki) 
 
 # Discuss
 
